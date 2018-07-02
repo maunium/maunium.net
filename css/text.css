@@ -1,0 +1,54 @@
+body {
+	color: #212121;
+
+	font-family: "Raleway", "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p {
+	font-size: 16px;
+}
+
+.secondary-text {
+	color: #9A9A9B;
+}
+
+a.no-link:link, a.no-link:hover, a.no-link:active, a.no-link:visited {
+	text-decoration: inherit;
+
+	color: inherit;
+}
+
+a.white-link:link, a.white-link:hover, a.white-link:active, a.white-link:visited {
+	color: #FFFFFF;
+}
+
+a.green-link:link, a.green-link:hover, a.green-link:active, a.green-link:visited {
+	color: #50D367;
+}
+
+a.black-alt-link:link, a.black-alt-link:hover, a.black-alt-link:active, a.black-alt-link:visited {
+	color: #9A9A9A;
+}
+
+a.black-link:link, a.black-link:hover, a.black-link:active, a.black-link:visited {
+	color: #212121;
+}
+
+a.white-link:hover, a.green-link:hover, a.black-alt-link:hover, a.black-link:hover {
+	text-decoration: underline;
+}

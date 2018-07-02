@@ -1,0 +1,39 @@
+.title {
+	padding-top: 0.5em;
+	padding-bottom: 0.7em;
+
+	text-align: center;
+}
+
+@media (min-width: 34em) {
+	.contact-card {
+		padding-right: 3.4em;
+		padding-left: 3.4em;
+	}
+}
+
+@media (min-width: 48em) {
+	.contact-card {
+		padding-right: 4.8em;
+		padding-left: 4.8em;
+	}
+
+	.title {
+		padding-top: 1em;
+		padding-bottom: 1.5em;
+	}
+}
+
+@media (min-width: 62em) {
+	.contact-card {
+		padding-right: 6.2em;
+		padding-left: 6.2em;
+	}
+}
+
+@media (min-width: 75em) {
+	.contact-card {
+		padding-right: 7.5em;
+		padding-left: 7.5em;
+	}
+}

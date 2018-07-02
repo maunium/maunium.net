@@ -1,0 +1,33 @@
+.navbar {
+	background-color: #FFFFFF;
+}
+
+.navbar-toggler {
+	color: #50D367;
+}
+
+a.nav-link:link, a.nav-link:visited, a.nav-link:hover, a.nav-link:active {
+	color: #50D367;
+}
+
+a.nav-link:hover, a.nav-link:active {
+	text-decoration: underline;
+}
+
+.active {
+	font-weight: bold;
+}
+
+.navbar-brand, a.navbar-brand:link, a.navbar-brand:visited, a.navbar-brand:hover, a.navbar-brand:active {
+	color: #212121;
+
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+@media (min-width: 48em) {
+	.nav-link {
+		padding-right: 0.4em;
+		padding-left: 0.4em;
+	}
+}

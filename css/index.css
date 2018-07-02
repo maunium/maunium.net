@@ -1,0 +1,86 @@
+.email {
+	font-style: italic;
+
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+
+.introduction {
+	background-color: #FFFFFF;
+}
+
+.introduction-text {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.hi-hi {
+	color: #9A9A9B;
+
+	font-weight: bold;
+}
+
+.hi-name {
+	color: #50D367;
+
+	font-size: 3.5em;
+	font-weight: normal;
+}
+
+.work {
+	bottom: 0;
+
+	padding-bottom: 2em;
+
+	color: #FFFFFF;
+	border: none;
+	background-color: #50D367;
+}
+
+@media (min-width: 34em) {
+	.introduction {
+		padding: 4em;
+	}
+
+	.hi-block {
+		padding-right: 3.4em;
+		padding-left: 3.4em;
+	}
+
+	.hi-name {
+		font-size: 5em;
+	}
+}
+
+@media (min-width: 48em) {
+	.introduction {
+		padding: 5.5em;
+	}
+
+	.hi-block {
+		padding-right: 4.8em;
+		padding-left: 4.8em;
+	}
+}
+
+@media (min-width: 62em) {
+	.introduction {
+		padding: 7em;
+	}
+
+	.hi-block {
+		padding-right: 6.2em;
+		padding-left: 6.2em;
+	}
+}
+
+@media (min-width: 75em) {
+	.introduction {
+		padding: 9em;
+	}
+
+	.hi-block {
+		padding-right: 7.5em;
+		padding-left: 7.5em;
+	}
+}

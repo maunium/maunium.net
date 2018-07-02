@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact - Maunium</title>
+	{{.Include "/shared/header.html"}}
+	<link rel="stylesheet" href="/css/contact.css">
+</head>
+<body>
+	{{.Include "/shared/nav.html"}}
+
+	<div class="container contact-card">
+		<h1 class="title">Ways to contact me</h1>
+		<div class="card">
+			<ul class="list-group list-group-flush">
+				<li class="list-group-item">
+					<a class="black-link" href="https://matrix.org/">Matrix</a> <a class="green-link" href="https://matrix.to/#/@tulir:maunium.net">@tulir:maunium.net</a>
+					- Preferred method.
+				</li>
+				<li class="list-group-item">
+					<a class="black-link" href="https://lmgtfy.com/?q=What+is+email%3F">Email</a> <a class="green-link" href="mailto:tulir@maunium.net">tulir@maunium.net</a>
+					- Preferred non-IM method. I might even notice Hangouts chats.
+				</li>
+				<li class="list-group-item">
+					<a class="black-link" href="https://telegram.org/">Telegram</a> <a class="green-link" href="https://t.me/tulir">@tulir</a>
+					- I'll see messages through my <a class="black-link" href="https://github.com/tulir/mautrix-telegram">Matrix-Telegram</a> bridge.
+				</li>
+				<li class="list-group-item">
+					<a class="black-link" href="https://tools.ietf.org/html/rfc1459">IRC</a> <span style="color: #50D367">tulir</span>
+					- I can usually be found on Freenode and IRCnet (via the Matrix bridges).
+				</li>
+				<li class="list-group-item">
+					<a class="black-link" href="https://twitter.com">Twitter</a> <a class="green-link" href="https://twitter.com/tulir293">@tulir293</a>
+					- I'll probably see private messages and mentions, but don't rely on it.
+				</li>
+				<li class="list-group-item">
+					<a class="black-link" href="https://keybase.io">Keybase</a> <a class="green-link" href="https://keybase.io/tulir">tulir</a>
+					- I may or may not see chat messages.
+				</li>
+				<!--<li class="list-group-item">
+					If you have my phone number, <a class="black-link" href="https://signal.org/">Signal</a> and SMS are fine.
+					I have a <a class="black-link" href="https://github.com/matrix-hacks/matrix-puppet-signal">Signal-Matrix</a> bridge and a <a class="black-link" href="https://github.com/tijder/SmsMatrix">SMS-Matrix</a> bridge.
+				</li>-->
+			</ul>
+		</div>
+
+		If you want to contact me in a secure way, use encrypted Matrix chats, <a class="black-link" href="https://keybase.io">Keybase</a> private shares/chat or <a class="black-link" href="https://lmgtfy.com/?q=Email+with+PGP">email with PGP</a> (<a href="https://maunium.net/pgp">My key</a>).
+		<b>Please avoid Telegram secret chats</b> as they only work on mobile and I probably won't notice them.
+	</div>
+
+	{{.Include "/shared/footer.html"}}
+</body>
+</html>

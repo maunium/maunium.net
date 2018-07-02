@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Maunium</title>
+	<meta property="og:title" content="Maunium"/>
+	<meta property="og:description" content="Projects and other stuff by Tulir"/>
+	<meta property="og:url" content="https://maunium.net/"/>
+	<meta property="og:image" content="https://maunium.net/favicon.ico"/>
+	{{.Include "/shared/header.html"}}
+	<link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+	{{.Include "/shared/nav.html"}}
+
+	<!-- Google, please don't show this page with the title "Some of my work". --> <h1 hidden>Maunium</h1>
+
+	<div class="container" id="introduction-container">
+		<div class="jumbotron introduction" id="introduction">
+			<div class="hi-block" id="hi">
+				<div class="hi-hi">Hi, I'm</div>
+				<div class="hi-name">Tulir</div>
+			</div>
+			<p class="introduction-text" id="main-introduction">
+				I code things for fun. I started with Java in order to make
+					<a class="black-link" href="https://spigotmc.org">Bukkit/Spigot</a> plugins and
+					<a class="black-link" href="http://www.minecraftforge.net/">Forge</a> mods.
+				I've also made some desktop programs, such as <a class="black-link" href="https://img.mau.lu">mauCapture</a>.
+
+				More recently I've used
+					<a class="black-link" href="https://golang.org">Golang</a>,
+					Python and JavaScript.
+				All my public projects can be found on <a href="https://github.com/tulir/">GitHub</a>.
+				See the <a href="contact/">Contact section</a> for my contact information.
+			</p>
+		</div>
+	</div>
+
+	<div class="work">
+		<div class="container">
+			<br>
+			<center><h1>Some of my work:</h1></center>
+			<div class="row">
+				<div class="col-md-4" id="work-block-1">
+					<div class="card card-block work">
+						<h4 class="card-title">
+							<a class="card-link white-link" href="https://github.com/tulir/gomuks">gomuks</a>
+						</h4>
+						<p class="card-text">
+							A terminal based Matrix client written in Go. Aims to support as many Matrix/Riot features as possible in
+							modern terminal emulators.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4" id="work-block-2">
+					<div class="card card-block work">
+						<h4 class="card-title">
+							<a class="card-link white-link" href="https://github.com/tulir/mautrix-telegram">mautrix-telegram</a>
+						</h4>
+						<p class="card-text">
+							A hybrid puppeting/relaybot Matrix-Telegram bridge to allow you to use Telegram from Matrix. Written in Python.
+						</p>
+					</div>
+				</div>
+
+				<div class="col-md-4" id="work-block-3">
+					<div class="card card-block work">
+						<h4 class="card-title">
+							<a class="card-link white-link" href="https://github.com/tulir/gopacked">go<b>Packed</b></a>
+						</h4>
+						<p class="card-text">
+							A CLI Minecraft modpack manager written in Go. goPack definitions use a
+							fairly simple JSON format and can be hosted anywhere.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	{{.Include "/shared/footer.html"}}
+</body>
+</html>

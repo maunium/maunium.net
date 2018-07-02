@@ -1,0 +1,28 @@
+.footer {
+	height: 8rem;
+
+	color: #FFFFFF;
+	background-color: #042B52;
+}
+
+a.foot-link:link, a.foot-link:hover, a.foot-link:active, a.foot-link:visited {
+	padding: 0.5em;
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+}
+
+a.foot-link:hover {
+	text-decoration: underline;
+}
+
+a.foot-image:link, a.foot-image:hover, a.foot-image:active, a.foot-image:visited {
+	padding: 1em;
+
+	text-decoration: none;
+
+	color: #FFFFFF;
+
+	font-weight: bold;
+}
