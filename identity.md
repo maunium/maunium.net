@@ -13,23 +13,31 @@ Keybase: [tulir](https://keybase.io/tulir)
 ### Matrix devices
 | Name              | ID           | Key                                                     |
 |-------------------|--------------|---------------------------------------------------------|
-| Maunium           | `ZUVCRNRUEY` | `9RoR 3CtR 1Myy 0G9f e3tc EO7v pWY3 Saje VoVJ iSp2 kdQ` |
-| ThinkMau          | `SMCBGSUAOV` | `SWA4 McOK 9ZDd DeRy VrbG PitT ET1e V7m6 jC1g FNH0 Ymc` |
+| Maunium           | `-` | `-` |
+| ThinkMau          | `DBUHFAUYYF` | `Hr9z 4Pr6 vGuu YgFl Z096 lQ7s bBW6 sx+a SSPw BDOs mGI` |
 |                   |              |                                                         |
-| Mauwei Mate10 Pro | `ECWGQVGPJJ` | `HDJV tM/Z cZVT X6gM te33 cObX GM5f sIRp uowK 78fA xUo` |
-| Mauxus 9          | `RAGRABSXKW` | `1ny7 WwHW a5ad 4y11 WKRt WzX+ Crbq ORwE wgly I1XS FCQ` |
-| Chromium Test     | `RLRONRBFAV` | `p6dt Fs08 SFM8 KUS7 HRZa qdST pIjo w+2B USc2 qsb7 nlE` |
-| Maunium Minty     | `OEDRVGYTKH` | `KgMR OPX4 Y+KH Z2ay HXJi P5Gq zWlB iKWB xDzD HSmE 9Uw` |
-|                   |              |                                                         |
-| Work iPhone 8+    | `IOOJZQJRIP` | `LgpS Mg9E Uw2s 7vfM 7oE7 ck6x Ye4y tXXw 3hM6 wPv5 czg` |
-| Work Macbook      | `MHESAQKFHP` | `J87m oFy4 0H1W YATZ udQm HuZ6 FJ3G laCC gd61 akXb 37o` |
+| Mauwei Mate10 Pro | `YOOABNAKQN` | `KmdG xdGE 76KD yhBO nZSp QqHC FzMx wDI9 ghcO sdnw qa4` |
+| Mauxus 9          | `-` | `-` |
+| Work iPhone 8+    | `MEYAMHRFVD` | `lmTQ 3ARQ DtGJ dtbb yyMH cR5o XCvU /HJT WIYv +iWh nQU` |
 
 #### Old devices
 | Name              | ID           | Key                                                     | Removed on | Removed due to |
 |-------------------|--------------|---------------------------------------------------------|------------|----------------|
 | Work iPhone 8+    | `BLUHGIFYGV` | `r2h7 2vdh 6M/j zqFM 2pO6 983F UZwV LwsP vGAO ap7O yxs` | 2018-04-06 | Relogin        |
+|                   |              |                                                         |            |                |
 | Maunium           | `TYYBSUTCTP` | `oVDb F5UN haHp WFS0 dRZq o4WY Ymig qRLH Ld1k fSH/ Tbk` | 2018-04-27 | Reinstall      |
 | ThinkMau          | `LIHIDBHZXJ` | `P8a2 1bex CZBO G5I0 v/y2 R+B6 RB37 fDSl nECG JGnd HVA` | 2018-04-27 | Reinstall      |
+|                   |              |                                                         |            |                |
+| Maunium           | `ZUVCRNRUEY` | `9RoR 3CtR 1Myy 0G9f e3tc EO7v pWY3 Saje VoVJ iSp2 kdQ` | 2018-07-07 | [1]            |
+| ThinkMau          | `SMCBGSUAOV` | `SWA4 McOK 9ZDd DeRy VrbG PitT ET1e V7m6 jC1g FNH0 Ymc` | 2018-07-07 | [1]            |
+| Mauwei Mate10 Pro | `ECWGQVGPJJ` | `HDJV tM/Z cZVT X6gM te33 cObX GM5f sIRp uowK 78fA xUo` | 2018-07-07 | [1]            |
+| Mauxus 9          | `RAGRABSXKW` | `1ny7 WwHW a5ad 4y11 WKRt WzX+ Crbq ORwE wgly I1XS FCQ` | 2018-07-07 | [1]            |
+| Chromium Test     | `RLRONRBFAV` | `p6dt Fs08 SFM8 KUS7 HRZa qdST pIjo w+2B USc2 qsb7 nlE` | 2018-07-07 | [1]            |
+| Maunium Minty     | `OEDRVGYTKH` | `KgMR OPX4 Y+KH Z2ay HXJi P5Gq zWlB iKWB xDzD HSmE 9Uw` | 2018-07-07 | [1]            |
+| Work iPhone 8+    | `IOOJZQJRIP` | `LgpS Mg9E Uw2s 7vfM 7oE7 ck6x Ye4y tXXw 3hM6 wPv5 czg` | 2018-07-07 | [1]            |
+| Work Macbook      | `MHESAQKFHP` | `J87m oFy4 0H1W YATZ udQm HuZ6 FJ3G laCC gd61 akXb 37o` | 2018-07-07 | [1]            |
+
+[1] Old access tokens were accidentally invalidated after migrating synapse to a new server.
 
 ### PGP key
 ```pgp
@@ -92,4 +100,4 @@ Py/0PYRhZC29sTlchuhSOkJpcXD/aK9EQayqahK962L/CA==
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 
-Last updated 2018-05-19
+Last updated 2018-07-07
