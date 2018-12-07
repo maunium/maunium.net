@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/tulir
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://maunium.net
+  * I am tulir (https://keybase.io/tulir) on keybase.
+  * I have a public key ASDjnZjkiozLpYqSXxkPevtKCrQ6KueRTBFCqq-Xg9LXGgo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120e39d98e48a8ccba58a925f190f7afb4a0ab43a2ae7914c1142aaaf9783d2d71a0a",
+            "host": "keybase.io",
+            "kid": "0120e39d98e48a8ccba58a925f190f7afb4a0ab43a2ae7914c1142aaaf9783d2d71a0a",
+            "uid": "0cddce1058d44a7d2762952e0b86b619",
+            "username": "tulir"
+        },
+        "service": {
+            "hostname": "maunium.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1477584951,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1477584928,
+        "hash": "c04fdc5cb5252f2a1ff4911959772c4d231d8abca0974e123b7f26c1d99c4d139d4e2842a30dc04e7a16eecfd3cfc2ef9155db27271b1d3c3979f9620b8d227d",
+        "seqno": 690852
+    },
+    "prev": "cf6d250fc0c3678063e27b95ad735e4c8c52e0bb3a438b3fd392a7c418268be8",
+    "seqno": 57,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg452Y5IqMy6WKkl8ZD3r7Sgq0OirnkUwRQqqvl4PS1xoKp3BheWxvYWTFAvF7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZTM5ZDk4ZTQ4YThjY2JhNThhOTI1ZjE5MGY3YWZiNGEwYWI0M2EyYWU3OTE0YzExNDJhYWFmOTc4M2QyZDcxYTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZTM5ZDk4ZTQ4YThjY2JhNThhOTI1ZjE5MGY3YWZiNGEwYWI0M2EyYWU3OTE0YzExNDJhYWFmOTc4M2QyZDcxYTBhIiwidWlkIjoiMGNkZGNlMTA1OGQ0NGE3ZDI3NjI5NTJlMGI4NmI2MTkiLCJ1c2VybmFtZSI6InR1bGlyIn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJtYXVuaXVtLm5ldCIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDc3NTg0OTUxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0Nzc1ODQ5MjgsImhhc2giOiJjMDRmZGM1Y2I1MjUyZjJhMWZmNDkxMTk1OTc3MmM0ZDIzMWQ4YWJjYTA5NzRlMTIzYjdmMjZjMWQ5OWM0ZDEzOWQ0ZTI4NDJhMzBkYzA0ZTdhMTZlZWNmZDNjZmMyZWY5MTU1ZGIyNzI3MWIxZDNjMzk3OWY5NjIwYjhkMjI3ZCIsInNlcW5vIjo2OTA4NTJ9LCJwcmV2IjoiY2Y2ZDI1MGZjMGMzNjc4MDYzZTI3Yjk1YWQ3MzVlNGM4YzUyZTBiYjNhNDM4YjNmZDM5MmE3YzQxODI2OGJlOCIsInNlcW5vIjo1NywidGFnIjoic2lnbmF0dXJlIn2jc2lnxEADcGQBigmFIn1pDISIq2EVpLekaRNp32peSKssPj6XmPQ3YIzfOxmPzFSGR5XM+G4MjeugcFS08ItOnHsr4BsNqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQglG05LyUiF+t1ceVX/RYbC3K2P/jC+FVhSxjmuqT3vqyjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tulir
+
+==================================================================
