@@ -1,8 +1,14 @@
 {
 	"m.homeserver": {
-		"base_url": "https://maunium.net"
+		"base_url": "https://api.mau.chat"
 	},
-	"m.identity_server": {
-		"base_url": "https://matrix.org"
+	"m.integrations": {
+		"managers": [{
+			"ui_url": "https://dimension.mau.chat/riot",
+			"api_url": "https://dimension.mau.chat/api/v1/scalar"
+		}, {
+			"ui_url": "https://scalar.vector.im/",
+			"api_url": "https://scalar.vector.im/api"
+		}]
 	}
 }
