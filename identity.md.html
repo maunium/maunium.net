@@ -1,170 +1,61 @@
 <!DOCTYPE html>
-<html><head><style>
-body {
-	margin: 40px auto;
-	max-width: 700px;
-	line-height: 1.5;
-	font-size: 14px;
-	color: #444;
-	padding: 0 10px;
-}
-h1, h2, h3 {
-	line-height: 1.2;
-}
-</style></head><body>
+<html>
+<head>
+<style>
+  body {
+    margin: 40px auto;
+    max-width: 700px;
+    line-height: 1.5;
+    font-size: 14px;
+    color: #444;
+    padding: 0 10px;
+  }
+  h1, h2, h3            { line-height: 1.2 }
+  table                 { margin: 16px 0 }
+  td:not(:last-of-type),
+  th:not(:last-of-type) { border-right: 1px solid #444 }
+  th                    { border-bottom: 1px solid #444 }
+  td                    { padding: 1px 6px }
+  tr.blank.top > td     { border-bottom: 1px solid #BBB }
+  tr.blank > td         { padding: 2px }
+</style>
+</head>
+<body>
 <h2>Identity</h2>
-<p>Matrix:  <a href="https://matrix.to/#/@tulir:maunium.net" rel="nofollow">@tulir:maunium.net</a><br>
-Email:   <a href="mailto:tulir@maunium.net">tulir@maunium.net</a><br>
-PGP key: <code>27B368B425431BDA851B1D4C513CB62B324C2F47</code> (expires 2025-10-19)<br>
-GitHub:  <a href="https://github.com/tulir">tulir</a><br>
-Keybase: <a href="https://keybase.io/tulir" rel="nofollow">tulir</a></p>
+<p>
+  Matrix:  <a href="https://matrix.to/#/@tulir:maunium.net" rel="nofollow">@tulir:maunium.net</a><br>
+  Email:   <a href="mailto:tulir@maunium.net">tulir@maunium.net</a><br>
+  PGP key: <code>27B368B425431BDA851B1D4C513CB62B324C2F47</code> (expires 2025-10-19)<br>
+  GitHub:  <a href="https://github.com/tulir">tulir</a><br>
+  GitLab:  <a href="https://mau.dev">mau.dev</a><br>
+  Keybase: <a href="https://keybase.io/tulir" rel="nofollow">tulir</a>
+</p>
+
 <h3>Duplicates of this file</h3>
 <ul>
-<li><a href="https://gist.github.com/tulir/d38f5db1aa814c19f23e113a253d14f8">GitHub Gist</a> (signature and renderer included)</li>
-<li><a href="https://maunium.net/identity.md" rel="nofollow">maunium.net</a> (<a href="https://maunium.net/identity.md.asc" rel="nofollow">signature</a>, <a href="https://maunium.net/identity.md.html" rel="nofollow">rendered</a>)</li>
-<li><a href="https://tulir.keybase.pub/identity.md" rel="nofollow">Keybase</a> (<a href="https://tulir.keybase.pub/identity.md.asc" rel="nofollow">signature</a>, <a href="https://tulir.keybase.pub/identity.md.html" rel="nofollow">rendered</a>)</li>
+  <li><a href="https://gist.github.com/tulir/d38f5db1aa814c19f23e113a253d14f8">GitHub Gist</a> (signature and renderer included)</li>
+  <li><a href="https://maunium.net/identity.md" rel="nofollow">maunium.net</a> (<a href="https://maunium.net/identity.md.asc" rel="nofollow">signature</a>, <a href="https://maunium.net/identity.md.html" rel="nofollow">rendered</a>, <a href="https://maunium.net/identity.md.html.asc" rel="nofollow">rendered signature</a>)</li>
+  <li><a href="https://tulir.keybase.pub/identity.md" rel="nofollow">Keybase</a> (<a href="https://tulir.keybase.pub/identity.md.asc" rel="nofollow">signature</a>, <a href="https://tulir.keybase.pub/identity.md.html" rel="nofollow">rendered</a>, <a href="https://tulir.keybase.pub/identity.md.html.asc" rel="nofollow">rendered signature</a>)</li>
+  <li><a href="https://www.cs.helsinki.fi/u/tulir/identity.md" rel="nofollow">cs.helsinki.fi</a> (<a href="https://www.cs.helsinki.fi/u/tulir/identity.md.asc" rel="nofollow">signature</a>, <a href="https://www.cs.helsinki.fi/u/tulir/identity.md.html" rel="nofollow">rendered</a>, <a href="https://www.cs.helsinki.fi/u/tulir/identity.md.html.asc" rel="nofollow">rendered signature</a>)</li>
 </ul>
-<h3>Matrix devices</h3>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>ID</th>
-<th>Key</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Maunium</td>
-<td><code>-</code></td>
-<td><code>-</code></td>
-</tr>
-<tr>
-<td>ThinkMau</td>
-<td><code>DBUHFAUYYF</code></td>
-<td><code>Hr9z 4Pr6 vGuu YgFl Z096 lQ7s bBW6 sx+a SSPw BDOs mGI</code></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Mauwei Mate10 Pro</td>
-<td><code>MEYAMHRFVD</code></td>
-<td><code>KmdG xdGE 76KD yhBO nZSp QqHC FzMx wDI9 ghcO sdnw qa4</code></td>
-</tr>
-<tr>
-<td>Mauxus 9</td>
-<td><code>-</code></td>
-<td><code>-</code></td>
-</tr>
-<tr>
-<td>Work iPhone 8+</td>
-<td><code>MEYAMHRFVD</code></td>
-<td><code>lmTQ 3ARQ DtGJ dtbb yyMH cR5o XCvU /HJT WIYv +iWh nQU</code></td>
-</tr></tbody></table>
-<h4>Old devices</h4>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>ID</th>
-<th>Key</th>
-<th>Removed on</th>
-<th>Removed due to</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Work iPhone 8+</td>
-<td><code>BLUHGIFYGV</code></td>
-<td><code>r2h7 2vdh 6M/j zqFM 2pO6 983F UZwV LwsP vGAO ap7O yxs</code></td>
-<td>2018-04-06</td>
-<td>Relogin</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Maunium</td>
-<td><code>TYYBSUTCTP</code></td>
-<td><code>oVDb F5UN haHp WFS0 dRZq o4WY Ymig qRLH Ld1k fSH/ Tbk</code></td>
-<td>2018-04-27</td>
-<td>Reinstall</td>
-</tr>
-<tr>
-<td>ThinkMau</td>
-<td><code>LIHIDBHZXJ</code></td>
-<td><code>P8a2 1bex CZBO G5I0 v/y2 R+B6 RB37 fDSl nECG JGnd HVA</code></td>
-<td>2018-04-27</td>
-<td>Reinstall</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Maunium</td>
-<td><code>ZUVCRNRUEY</code></td>
-<td><code>9RoR 3CtR 1Myy 0G9f e3tc EO7v pWY3 Saje VoVJ iSp2 kdQ</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>ThinkMau</td>
-<td><code>SMCBGSUAOV</code></td>
-<td><code>SWA4 McOK 9ZDd DeRy VrbG PitT ET1e V7m6 jC1g FNH0 Ymc</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>Maunium Minty</td>
-<td><code>OEDRVGYTKH</code></td>
-<td><code>KgMR OPX4 Y+KH Z2ay HXJi P5Gq zWlB iKWB xDzD HSmE 9Uw</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>Mauwei Mate10 Pro</td>
-<td><code>ECWGQVGPJJ</code></td>
-<td><code>HDJV tM/Z cZVT X6gM te33 cObX GM5f sIRp uowK 78fA xUo</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>Mauxus 9</td>
-<td><code>RAGRABSXKW</code></td>
-<td><code>1ny7 WwHW a5ad 4y11 WKRt WzX+ Crbq ORwE wgly I1XS FCQ</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>Chromium Test</td>
-<td><code>RLRONRBFAV</code></td>
-<td><code>p6dt Fs08 SFM8 KUS7 HRZa qdST pIjo w+2B USc2 qsb7 nlE</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>Work iPhone 8+</td>
-<td><code>IOOJZQJRIP</code></td>
-<td><code>LgpS Mg9E Uw2s 7vfM 7oE7 ck6x Ye4y tXXw 3hM6 wPv5 czg</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr>
-<tr>
-<td>Work Macbook</td>
-<td><code>MHESAQKFHP</code></td>
-<td><code>J87m oFy4 0H1W YATZ udQm HuZ6 FJ3G laCC gd61 akXb 37o</code></td>
-<td>2018-07-07</td>
-<td>[1]</td>
-</tr></tbody></table>
 
-[1] Old access tokens were accidentally invalidated after migrating synapse to a new server.
+<h3>Matrix devices</h3>
+<table cellspacing=0>
+<thead>
+  <tr><th>Name</th>            <th>ID</th>                     <th>Key</th>                                                               </tr>
+</thead><tbody>
+  <tr><td>Maunium</td>         <td><code>DEMTOYJSXJ</code></td><td><code>B8il Cw73 Z8A9 ITb6 1G2s x2Ea cBpH AZBI GCTD d+Gd XyM</code></td></tr>
+  <tr><td>ThinkMau</td>        <td><code>MBJIQUYLLP</code></td><td><code>99DT IE2s NXrQ duvF EXqM e9a0 UKn3 bmXH 6Yoa QY82 kmc</code></td></tr>
+  <tr class="blank top"><td></td><td></td><td></td></tr>
+  <tr class="blank"><td></td><td></td><td></td></tr>
+  <tr><td>Mauwei</td>          <td><code>BCODLYDKGM</code></td><td><code>5+yG G9ro fFMk OgU+ I/Zi JQPX d6RF fp2p Dw3p +V3p MTM</code></td></tr>
+  <tr><td>Mauwei X</td>        <td><code>OGCGTPQCJQ</code></td><td><code>qPAp Z9gS gBNK t5L0 ftl+ he4+ PlIj Uo25 r+IH ENAL A94</code></td></tr>
+  <tr><td>mauPad</td>          <td><code>QPNVFBBQHL</code></td><td><code>wkpV NNDV C/ux ZdXf ROMM aWMj yuaa 50he fYD6 toeA kCs</code></td></tr>
+  <tr class="blank top"><td></td><td></td><td></td></tr>
+  <tr class="blank"><td></td><td></td><td></td></tr>
+  <tr><td>Work iPhone</td>     <td><code>MEYAMHRFVD</code></td><td><code>lmTQ 3ARQ DtGJ dtbb yyMH cR5o XCvU /HJT WIYv +iWh nQU</code></td></tr>
+
+</tbody></table>
 
 <h3>PGP key</h3>
 <pre lang="pgp"><code>-----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -225,4 +116,7 @@ Py/0PYRhZC29sTlchuhSOkJpcXD/aK9EQayqahK962L/CA==
 =uXV/
 -----END PGP PUBLIC KEY BLOCK-----
 </code></pre>
-<p>Last updated 2018-07-07</p></body></html>
+
+<p>Last updated 2019-11-18</p>
+</body>
+</html>
