@@ -1,0 +1,9 @@
+{
+    "ip": "{{ .IP }}",
+    "uri": "{{ .URI }}",
+    "host": "{{ .Host }}",
+    "port": "{{ .Port }}",
+    "method": "{{ .Method }}",
+    "tls_version": "{{ .TLSVersion }}",
+    "random_string": "{{ .RandomString 16 16 }}"
+}
