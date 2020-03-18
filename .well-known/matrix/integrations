@@ -1,0 +1,8 @@
+{
+	"m.integrations_widget": {
+		"url": "https://dimension.mau.chat/riot",
+		"data": {
+			"api_url": "https://dimension.mau.chat/api/v1/scalar"
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"admins": [
+		{
+			"matrix_id": "@tulir:maunium.net",
+			"email_address": "admin@mau.chat",
+			"role": "admin"
+		}
+	]
+}
