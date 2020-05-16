@@ -1,9 +1,7 @@
 {
-    "ip": "{{ .IP }}",
-    "uri": "{{ .URI }}",
+    "ip": "{{ .RemoteIP }}",
+    "uri": "{{ .Req.URL }}",
     "host": "{{ .Host }}",
-    "port": "{{ .Port }}",
-    "method": "{{ .Method }}",
-    "tls_version": "{{ .TLSVersion }}",
-    "random_string": "{{ .RandomString 16 16 }}"
+    "method": "{{ .Req.Method }}",
+    "random_string": "{{ randAlphaNum 16 }}"
 }
