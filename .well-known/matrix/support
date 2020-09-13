@@ -2,8 +2,13 @@
 	"admins": [
 		{
 			"matrix_id": "@tulir:maunium.net",
-			"email_address": "admin@mau.chat",
+			"email_address": "tulir@maunium.net",
 			"role": "admin"
+		},
+		{
+			"matrix_id": "@tulir:kapsi.fi",
+			"role": "backup"
 		}
-	]
+	],
+	"support_page": "https://matrix.to/#/#maunium:maunium.net"
 }
